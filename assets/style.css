@@ -15,7 +15,6 @@
 
 body{
     overflow-x:hidden;
-    position:relative;
 }
 
 header{
@@ -76,6 +75,7 @@ header li a:hover{
     left:-15%;
     animation: floatAnimation 5s infinite alternate;
     animation-delay:1s;
+    pointer-events: none;
 }
 
 #f-eclipse svg{
@@ -89,6 +89,7 @@ header li a:hover{
     left:15%;
     animation: floatAnimation 4s infinite alternate;
     animation-delay:2s;
+    pointer-events: none;
 }
 
 #s-eclipse svg{
@@ -103,6 +104,7 @@ header li a:hover{
     left:18%;
     animation: floatAnimation 3s infinite alternate;
     animation-delay:3s;
+    pointer-events: none;
 }
 
 #t-eclipse svg{
@@ -117,6 +119,7 @@ header li a:hover{
     left:50%;
     animation: floatAnimation 3s infinite alternate;
     animation-delay:4s;
+    pointer-events: none;
 }
 
 #fourth-eclipse svg{
@@ -173,6 +176,7 @@ header li a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    pointer-events: none;
 }
 
 .fb-uczen img{
