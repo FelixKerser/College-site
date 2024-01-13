@@ -13,6 +13,11 @@
     line-height: normal;
 }
 
+body{
+    overflow-x:hidden;
+    position:relative;
+}
+
 header{
     max-width:90%;
     margin:0 auto;
@@ -162,6 +167,12 @@ header li a:hover{
     font-size: 45px;
     font-weight: 400;
     margin:0;
+}
+
+.fb-uczen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fb-uczen img{
