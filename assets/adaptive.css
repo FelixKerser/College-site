@@ -53,7 +53,7 @@
     .first-block{
         padding: 20px 15px;
         border-radius: 0;
-        mix-blend-mode: lighten;
+        /* mix-blend-mode: lighten; */
     }
 
     .first-block h1{
