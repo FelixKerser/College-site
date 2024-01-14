@@ -241,3 +241,19 @@ header li a:hover{
     height:100%;
     position:absolute;
 }
+
+#rekturacjablocks1 .owl-nav{
+    font-size:40px;
+}
+
+#rekturacjablocks1 .owl-prev{
+    margin-right:20px;
+}
+
+#rekturacjablocks1 .owl-next{
+    margin-left:20px;
+}
+
+#rekturacjablocks1 .owl-nav [class*=owl-]:hover{
+    background:none !important;
+}
