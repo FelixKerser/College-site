@@ -7,7 +7,11 @@
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/adaptive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
 <body>
     
     <header>
@@ -40,6 +44,8 @@
             </div>
         </div>
     </header>
+
+    <!-- First block -->
 
     <div id="f-eclipse">
         <svg xmlns="http://www.w3.org/2000/svg" width="312" height="312" viewBox="0 0 312 312" fill="none">
@@ -155,15 +161,55 @@
                     <li>Najlepszy nauczyciele w Nowej Hucie</li>
                 </ul>
 
+                <div class="fb-uczen only-mob">
+                  <img src="img/uczen.png" alt="Student">
+                </div>
+
                 <a href="#">
                     Wszystkie zawody
                 </a>
             </div>
-            <div class="fb-uczen">
+            <div class="fb-uczen only-pc">
                 <img src="img/uczen.png" alt="Student">
             </div>
         </div>
     </div>
+
+    <!-- Second block -->
+
+    <div id="rekturacjablocks1" class="owl-carousel owl-theme">
+      <div class="item" style="background-image:url('img/komunikat.png');"><a href="#"></a></div>
+      <div class="item" style="background-image:url('img/technik.png');"><a href="#"></a></div>
+      <div class="item" style="background-image:url('img/budownictwo.png');"><a href="#"></a></div>
+      <div class="item" style="background-image:url('img/krajobraz.png');"><a href="#"></a></div>
+      <div class="item" style="background-image:url('img/komunikat.png');"><a href="#"></a></div>
+      <div class="item" style="background-image:url('img/technik.png');"><a href="#"></a></div>
+      <div class="item" style="background-image:url('img/budownictwo.png');"><a href="#"></a></div>
+      <div class="item" style="background-image:url('img/krajobraz.png');"><a href="#"></a></div>
+  </div>
+
+  <script>
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:100,
+    nav:false,
+    responsive:{
+        0:{
+            items:1,
+            margin: 50,
+            autoWidth:true,
+        },
+
+        1080:{
+            items:3
+        },
+
+        1380:{
+            items:4
+        },
+    }
+})
+  </script>
 
 </body>
 </html>

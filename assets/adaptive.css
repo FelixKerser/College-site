@@ -41,7 +41,21 @@
     }
 }
 
+@media screen and (min-width:430px) {
+    .only-mob{
+        display:none !important;
+    }
+}
+
 @media screen and (max-width:430px) {
+    .only-pc{
+        display:none;
+    }
+
+    header{
+        padding: 5px 0;
+    }
+
     body, html{
         overflow-x: hidden;
     }
@@ -57,7 +71,7 @@
     }
 
     .first-block h1{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .first-block h1 br{
@@ -65,23 +79,30 @@
     }
 
     .first-block h2{
-        font-size: 27px;
+        font-size: 23px;
     }
 
     .fb-textblock a{
-        font-size: 27px;
+        font-size: 23px;
         width: auto;
         display: flex;
         justify-content: center;
-        padding: 23px 0px;
+        padding: 16px 0px;
     }
 
     .fb-textblock ul{
-        margin: 60px 0 55px 0;
+        margin: 40px 0 0px 0;
     }
 
-    .fb-uczen img{
-        height:500px;
+    .fb-textblock ul li{
+        font-size: 19px;
+        background-size: 25px;
+        padding-left: 35px;
+        margin: 22px 0;
+    }
+
+    .fb-uczen img {
+        height: 320px;
     }
 
     #f-eclipse{
