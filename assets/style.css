@@ -242,18 +242,107 @@ header li a:hover{
     position:absolute;
 }
 
-#rekturacjablocks1 .owl-nav{
+.owl-nav{
     font-size:40px;
 }
 
-#rekturacjablocks1 .owl-prev{
+.owl-prev{
     margin-right:20px;
 }
 
-#rekturacjablocks1 .owl-next{
+.owl-next{
     margin-left:20px;
 }
 
-#rekturacjablocks1 .owl-nav [class*=owl-]:hover{
+.owl-nav [class*=owl-]:hover{
     background:none !important;
 }
+
+/* third block */
+
+#videoblocks1 iframe{
+    height:auto;
+    width:100%;
+}
+
+.video-block-zag{
+    text-align: center;
+    margin:60px 0 30px 0;
+    font-weight: 500;
+    font-size: 44px;
+}
+
+/* fourth block */
+
+.zawody-blocks{
+    max-width:85%;
+    margin:100px auto 70px auto;
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
+}
+
+.zawod-el{
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.03);
+    padding:47px 41px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+    background-position: 120% 120%;
+    background-size: 50%;
+}
+
+.ze-zag{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 115%;
+    margin:0 0 12px 0;
+}
+
+.za-text{
+    max-width:65%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom:60px;
+}
+
+.ze-s a{
+    color:var(--blue-color);
+    text-decoration: none;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.ze-s a svg{
+    padding-left:15px;
+}
+
+.ze-s a:hover svg{
+    padding-left:20px;
+}
+
+.zawod-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.zawod-btn a{
+    font-size: 24px;
+    text-decoration: none;
+    padding: 23px 27px;
+    border: 2px solid var(--blue-color);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.zawod-btn a:hover{
+    color: white;
+    background-color: var(--blue-color);
+}
+
