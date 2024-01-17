@@ -346,3 +346,205 @@ header li a:hover{
     background-color: var(--blue-color);
 }
 
+/* fifth block */
+
+.fifth-block-zag{
+    margin:150px 0 50px 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 55px;
+}
+
+.nowosci-blocks{
+    display: grid; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 20px; 
+    max-width:85%;
+    margin:0 auto 200px auto;
+}
+
+.nb-el{
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.nbe-all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:370px;
+}
+
+.nbe-banner{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    height:310px;
+    width:540px;
+    position:relative;
+    overflow: hidden;
+}
+
+.nbe-banner .img-anim{
+    border-radius: 10px;
+}
+
+.img-anim{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(1);
+    transition: transform 0.5s ease;
+}
+
+.img-anim:hover {
+    /* background-size: 115% 115%; */
+    transform: scale(1.1);
+}
+
+.nbe-f, .nbe-s{
+    margin-left:29px;
+    margin-right:29px;
+}
+
+.nbe-f h3{
+    font-weight: 500;
+    font-size: 28px;
+    margin:31px 0 12px 0;
+}
+
+.nbe-f p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.nbe-s{
+    margin-bottom:50px;
+}
+
+.nbe-s a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 16px 34px;
+    border: 2px solid var(--blue-color);
+    border-radius: 10px;
+}
+
+.nbe-s a:hover{
+    color: white;
+    background-color: var(--blue-color);
+}
+
+/* sixth block */
+
+.sixth-block__wrapper{
+    padding:107px 0;
+    background: var(--blue-color, linear-gradient(100deg, #608AF5 20.85%, #1F78FF 72.25%));
+}
+
+.sixth-block{
+    max-width:85%;
+    margin:0 auto;
+}
+
+.sb-blocks{
+    display: grid; 
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    gap:20px;
+}
+
+.sbb-el{
+    text-decoration: none;
+}
+
+.sixth-block-zag{
+    font-size: 54px;
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+}
+
+.sbb-el__img{
+    height:300px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sbb-el-text{
+    padding-top:20px;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 400;
+    text-decoration:none;
+    width:540px;
+}
+
+/* Seventh block */
+
+.seventh-block-zag{
+    text-align: center;
+    font-weight: 500;
+    font-size: 54px;
+}
+
+.mapa{
+    background-image:url(../img/mapa.png);
+    background-position:center;
+    background-size:cover;
+    min-height:501px;
+    min-width:800px;
+}
+
+.seventh-block{
+    display: flex;
+    gap:40px;
+    max-width:85%;
+    margin:0 auto 192px auto;
+}
+
+.seventh-block-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.adress{
+    font-size: 30px;
+    font-weight: 500;
+    margin:0 0 10px 0;
+}
+
+.szkola-name{
+    font-size: 24px;
+    font-weight: 400;
+    margin:0;
+}
+
+.sbi-s a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* footer */
+
+.footer__wrapper{
+    background: #3A3A3A;
+    padding:120px 0 170px 0;
+}

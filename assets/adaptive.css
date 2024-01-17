@@ -1,3 +1,17 @@
+@media screen and (max-width:1680px) {
+    /* .nowosci-blocks{
+        grid-template-columns: 1fr 1fr; 
+    } */
+
+    .nb-el, .sbb-el-text{
+        width: auto;
+    }
+
+    .nbe-banner{
+        width: 100%;
+    }
+}
+
 @media screen and (max-width:1440px) {
     .zawod-el{
         background-size: 60%;
@@ -47,6 +61,18 @@
         background-size: 70%;
         background-position: 160% 100%;
     }
+
+    .sbb-el-text{
+        font-size: 25px;
+    }
+
+    .seventh-block{
+        flex-direction: column;
+    }
+
+    .mapa{
+        min-width: auto;
+    }
 }
 
 @media screen and (max-width:875px) {
@@ -57,6 +83,14 @@
     .zawod-el{
         background-size: 65%;
         background-position: 160% 100%;
+    }
+
+    .nowosci-blocks{
+        grid-template-columns: 1fr; 
+    }
+
+    .sb-blocks{
+        grid-template-columns: 1fr;
     }
 }
 
