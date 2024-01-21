@@ -73,6 +73,76 @@
     .mapa{
         min-width: auto;
     }
+
+    .footer-logo{
+        display: none;
+    }
+
+    .footer-contact{
+        max-width: 45%;
+    }
+
+    .footer{
+        gap:25px;
+    }
+
+    .burger-menu-icon{
+        width:40px;
+        height: 28px;
+        display: block;
+        cursor:pointer;
+    }
+
+    .mob-menu__wrapper{
+        display:flex;
+        position: fixed;
+        width:100%;
+        height: 100%;
+        background:rgba(0, 0, 0, 0);
+        z-index: 10;
+        top:0;
+        justify-content: flex-end;
+        transform: translateX(100%);
+        transition: background 0s ease, transform .4s ease;
+    }
+
+    .close-btn{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .mob-menu{
+        background-color:#FFF;
+        height:100%;
+        padding:15px 30px;
+        min-width: 40%;
+        overflow: auto;
+    }
+
+    .mob-menu ul{
+        padding:0;
+    }
+
+    .mob-menu ul li{
+        list-style-type: none;
+        margin-bottom:25px;
+    }
+
+    .mob-menu ul li:last-child{
+        margin-bottom:0;
+    }
+
+    .mob-menu ul li a{
+        text-decoration: none;
+        font-size:24px;
+    }
+
+    .mob-menu-active{
+        pointer-events: all;
+        transform: translateX(0%);
+        background:rgba(0, 0, 0, 0.4);
+        transition: background 3s ease, transform .4s ease;
+    }
 }
 
 @media screen and (max-width:875px) {
@@ -92,6 +162,10 @@
     .sb-blocks{
         grid-template-columns: 1fr;
     }
+
+    .footer__wrapper{
+        padding: 64px 0 64px 0;
+    }
 }
 
 @media screen and (min-width:430px) {
@@ -107,6 +181,22 @@
 
     header{
         padding: 5px 0;
+    }
+
+    .sixth-block__wrapper{
+        padding: 38px 0px;
+    }
+
+    .nowosci-blocks{
+        margin: 0px auto 125px;
+    }
+
+    .mob-menu{
+        min-width: 70%;
+    }
+
+    .sixth-block-zag, .seventh-block-zag{
+        font-size: 42px;
     }
 
     body, html{
